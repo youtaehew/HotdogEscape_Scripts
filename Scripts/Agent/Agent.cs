@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class Agent : MonoBehaviour
 {
-    #region 컴포넌트 목록
+    #region Component
     public Animator AnimatorCompo { get; protected set; }
     public IMovement MovementCompo { get ; protected set; }
     public Collider ColliderComp { get; protected set; }
