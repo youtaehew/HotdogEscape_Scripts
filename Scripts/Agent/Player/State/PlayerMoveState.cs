@@ -26,7 +26,6 @@ public class PlayerMoveState : PlayerGroundState
     public override void UpdateState()
     {
         base.UpdateState();
-        base.UpdateState();
         var right = Camera.main.transform.right;
         right.y = 0;
         var forward = Quaternion.AngleAxis(-90, Vector3.up) * right;
